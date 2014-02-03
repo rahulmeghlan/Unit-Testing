@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopping cart</title>
+
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+</head>
+<body>
+<div class="fk-ui-dialog newvd cart-dialog " style="visibility: visible; display: block;">
+<div class="shield"></div>
+<div class="window alpha30 window-absolute" style="width: 922px; height: 502px; top: 5px; left: 204.5px;">
+<div class="content">
+<div class="dialog-header">
+    <div id="shopping-cart-header" class="fk-hidden" style="display: block;">
+        <div class="cart-icon unit"></div>
+        <div class="cart-tabs">
+            <div class="tab selected" id="cart-tab">Cart <span id="count-cart"
+                                                               class="fk-inline-block cart-count">1</span></div>
+            <!--<div class="tab" id="digital-cart-tab">Digital Cart (<span id="count-digital-cart">1</span>)</div>-->
+        </div>
+        <div class="cls"></div>
+    </div>
+</div>
+<div class="dialog-body">
+<div id="panelsh" class="a-hover-underline" style="display: block;">
+<div class="container fk-height-full cart-container">
+<div class="tab-contents fk-height-full">
+<div id="cart-tab-content" class="tab-content fk-hidden fk-height-full" style="display: block;">
+    <div class="cart_contents newvd">
+        <div class="main-body-internal ">
+
+            <table width="100%" cellpadding="0" cellspacing="0" class="cart-table">
+                <thead class="fk-uppercase cart-head">
+                <tr>
+                    <td class="image-cell head-cell">&nbsp;</td>
+                    <td class="product-cell head-cell" colspan="3">
+                        <table width="100%" cellspacing="0" cellpadding="0">
+                            <tbody>
+                            <tr>
+                                <td class="item-cell head-cell"><span class="lpadding10">Item</span></td>
+                                <td class="qty-cell fk-text-center head-cell">Qty</td>
+                                <td class="price-cell fk-text-center head-cell">Price</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td class="head-cell delivery-cell fk-text-center">Delivery Details</td>
+                    <td class="head-cell subtotal-cell fk-text-center">Subtotal</td>
+                    <td class="head-cell">&nbsp;</td>
+                </tr>
+                </thead>
+                <tbody class="cart-body">
+                <tr>
+                    <td colspan="7">
+                        <div class="seller-orders tmargin5 rpositiongroup_0">
+                            <div class="seller-name rpadding10">Seller: <span class="fk-uppercase">WS Retail</span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cell image-cell">
+                        <div class="carty-image fk-text-center">
+                            <a href="/lava-iris-pro-30/p/itmdsm9prwg3gycg?pid=MOBDSHT8G9HEQBVW" class="img-link">
+                                <img src="http://img6a.flixcart.com/image/mobile/b/v/w/lava-iris-pro-30-200x200-imadshu48spfpkgy.jpeg"
+                                     class="product-image" alt="Lava Pro 30 Iris "> </a>
+
+                            <div class="carty-removeItem fk-font-small tmargin5">
+                                <a class="cart-wishlist-add fk-font-small fk-underline"
+                                   data-listing_id="LSTMOBDSHT8G9HEQBVWKOOBSH">Move to
+                                    wishlist</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td colspan="3" class="product-cell">
+                        <table width="100%" height="100%" cellspacing="0" cellpadding="0">
+                            <tbody>
+                            <tr>
+                                <td class="cell item-cell">
+                                    <div class="line bmargin5 font-color-medium fk-uppercase fk-font-11">Mobile</div>
+                                    <span class="title">Lava Pro 30 Iris </span>
+                                </td>
+                                <td class="cell qty-cell carty-changeQuantity">
+
+                                    <form class="cart-qty-form" action="" data-listing_id="LSTMOBDSHT8G9HEQBVWKOOBSH">
+                                        <div class="cart-qty-panel-read fk-text-center">
+                                            <a class="cart-qty"
+                                               onclick="$(this).closest('form').addClass('change').find('.cart-qty-textbox').val($(this).html()).select().end().find('.cart-qty-panel-write').removeAttr('style');">1</a>
+                                        </div>
+                                        <div class="cart-qty-panel-write fk-hidden">
+                                            <input type="text" maxlength="3" value="1"
+                                                   class="cart-qty-textbox fk-input">
+                                            <br>
+                                            <a class="cart-qty-save fk-font-small"
+                                               onclick="$(this).closest('form').submit();return false;">Save</a>
+                                        </div>
+                                    </form>
+                                </td>
+                                <td class="cell price-cell">
+                                    <div class="carty-price text_right line">
+                                        <div class=" fk-bold price">Rs. 15499</div>
+
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td class="cell delivery-cell">
+                        <p class="fk-font-11 fk-text-center fk-fontlight">Standard delivery by 06 Feb</p>
+
+                        <div class="lpadding20 tpadding5 fk-fontlight">
+                        </div>
+                    </td>
+                    <td class="cell subtotal-cell fk-font-17 fk-bold price text_right">
+                        Rs. 15499
+                    </td>
+                    <td class="cell">
+                        <a class="cart-remove-item fk-inline-block" data-listing_id="LSTMOBDSHT8G9HEQBVWKOOBSH"
+                           title="Remove Item"></a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+        </div>
+        <div class="cart-internal">
+        </div>
+        <div class="cart-footer bpadding10">
+            <div class="fk-border-top price-bar line">
+                <div class="unit size1of2">
+                    <div class="cart-pincode-checker lmargin15 tmargin5">
+                        <div class="pincode-checker location-availability">
+                            <div class="panel-form fk-inline-block" style="display:none">
+                                <form action="" onsubmit="return false;" class="pincode-checker-form">
+                                    <input autocomplete="off" type="text" maxlength="6" name="pincode"
+                                           placeholder="Enter Pincode" value="122016" class="pincode-textbox fk-input"
+                                           required="required" data-label="Pincode">
+
+                                    <input type="submit" class="btn btn-blue" value="Check">
+                                </form>
+                            </div>
+                            <div class="panel-static fk-inline-block vmiddle" style=" ">
+                                <span class="location-avail-res  fk-inline-block vmiddle"></span>
+                                <span class="pincode-description">Shipping to:</span>
+                                <span class="pincode-text">122016</span>
+                                <a onclick="$(this).parent().hide().prev().show()" class="pincodeChangeBtn">Change</a>
+                            </div>
+                            <div class="pincode-errorMsg"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="lastUnit text_right">
+                    <div class="total fk-font-verybig rpadding10">Amount Payable: <span
+                            class="fk-font-26">Rs. 15499</span></div>
+                </div>
+                <div class="cls"></div>
+            </div>
+            <div class="line tmargin10">
+                <div class="unit">
+                    <button class="btn btn-white btn-medium continue-button close">&lt; Continue Shopping</button>
+                    <span class="lpadding15 fk-font-17">Need Help?</span> <span class="lmargin5 callus"></span>1800 208
+                    9898 or <a href="/s/contact" class="fk-underline" title="contact us">contact
+                    us</a>
+                </div>
+                <div class="unitExt">
+                    <a class="btn btn-orange btn-buy-big place-order-button no-underline"
+                       href="https://www.flipkart.com/co">Place
+                        Order</a>
+                </div>
+                <div class="fclear">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</div>
+
+</div>
+
+
+
+</div>
+</div>
+</div>
+<span class="close-icon close header-close-icon"></span>
+
+<div class="fk-ui-tooltip cart-pincode-checker-tooltip yellow t-middle"><span class="fk-ui-tooltip-arrow"></span>
+
+    <div class="fk-ui-tooltip-content">Check delivery information</div>
+</div>
+</div>
+</div>
+</body>
+</html>
